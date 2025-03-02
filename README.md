@@ -1,4 +1,4 @@
-# show-full-robux
+# sShow Full Robux
 
 
 Chrome plugin that shows your full Robux balance without abbreviations.
