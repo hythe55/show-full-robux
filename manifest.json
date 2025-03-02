@@ -1,6 +1,6 @@
 {
     "name": "Show Full Robux",
-    "description": "can i have robux",
+    "description": "Shows your full Robux balance without abbreviations.",
     "version": "1.0",
     "manifest_version": 3,
     "content_scripts": [
