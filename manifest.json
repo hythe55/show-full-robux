@@ -1,0 +1,26 @@
+{
+    "name": "Show Full Robux",
+    "description": "can i have robux",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": [
+                "*://*.roblox.com/*"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "scripts/background.js"
+    },
+    "permissions": [
+        "cookies",
+        "storage",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "*://*.roblox.com/*",
+        "https://economy.roblox.com/*"
+     ]
+  }
